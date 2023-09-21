@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budgeting app</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./app.js" defer></script>
+    <script src="https://kit.fontawesome.com/6f238ced05.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+         <div class="budgetgiver">
+                    <h3 class="same heading"><b>Budget</b></h3>
+                   <input type="text" maxlength="25" size="30" class="box same" id="Budget" placeholder="Enter Total Amount"><br><br> 
+                   <BR><button class="same btn1" id="button1">Set Budget</button>
+         </div>
+         <div class="Expenses">
+            <h3 class="heading"><b>Expenses</b></h3>
+            <input type="text" maxlength="25" size="30" placeholder="Enter Title Of Product" class="box" id="titleprodct"><br><br>
+            <input type="text" maxlength="25" size="30" placeholder="Enter Costs Of Product" class="box" id="costsprodct"><br><br>
+            <input type="date" id="date"  class="box"><br><br>
+            <button class="btn1" id="button2">Check Amount </button>
+         </div>
+
+    </div>
+    <div class="chart">
+          <div class="value">
+      <h3 class="flex tb">Total Budget</h3>
+      <h3 class="flex exp" >Expenses</h3>
+      <h3 class="flex bal">Balance</h3>
+   </div>
+      <p id="output1">0</p>
+       <p id="output2">0</p>
+       <p id="output3">0</p>
+          </div>
+   </div>
+
+   <div class="todolist">
+      <h3><b>Expenses List</b></h3>
+      <ul id="incomplete-tasks">
+
+      </ul>
+   </div>
+
+
+
+</body>
+</html>
